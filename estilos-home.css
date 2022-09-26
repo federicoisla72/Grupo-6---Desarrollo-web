@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagen-logo{
+    height: 90px;
+}
+.cont-inicio{
+    display: flex;
+    background-color:#FFDF3E!important;
+    gap: 30px;
+    width: 100%;
+    height: 120px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid black 5px;
+
+    
+}
+.contenedor-enlaces{
+    display: flex;
+    flex-wrap: wrap;
+}
+.borde-blanco{
+    border-top: white solid 15px;
+}
+.enlances{
+    color: black;
+    flex-direction: initial;
+    border-left: solid #FFDF3E 70px;
+}
+
+/*-----------------------------------contendor2------------------------------------------------*/
+
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor-letras{
+    width: 50%;
+    height: 50%;
+}
+.contenedor-imagen{
+    width: 50%;
+    height: 50%;
+}
+.programador{
+    width: 100%;
+    height: 82vh;
+    position: relative;
+    top: -125px;
+    left: 53.5px;
+}
+
+.titulo-cont2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: -30px;
+}
+
+.subtitulo-cont2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -25px;
+    left: 5px;
+}
+.descripcion-cont2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+}
+/*---------------------------------------parte contacto-----------------------------------------*/
+.contenedor-contacto{
+    background-color:#FFDF3E!important;
+    width: 100%;
+    height: 1000px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.decoracion-datos{
+    -webkit-appearance: none;
+    background-color: #FFDF3E; 
+    width: 600px; 
+    border-width: 0; 
+    border-radius: 0; 
+    color: black;
+    font-size: 16px;  
+    border: 1px solid #bbb; 
+    padding: 5px;
+    border: black solid 1px;
+    border: #FFDF3E solid;
+    border-bottom: black solid 5px;
+    
+}
+.cada-dato{
+    color: black;
+    background-color: #FFDF3E;
+    
+}
+
+.titulo-contacto{
+    
+}
+#necesitas-ayuda{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 80px;
+}
+#escribenos{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 200px;
+    border-top: #FFDF3E solid 20px;
+
+
+}
+#dato-contacto{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+/*---------------------------------------parte final-----------------------------------------*/
+.contenedor-final{
+    background-color: #797979!important;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.numero-telefono{
+    position: relative;
+    left: -20px;
+}
+.img-mail{
+    position: relative;
+    left: 15px;
+}
+.texto-mail{
+    position: relative;
+    left: -80px;
+}
+.img-ubicacion{
+    position: relative;
+    left: -80px;
+}
+.texto-ubicacion{
+    position: relative;
+    left: -90px;
+    color: black;
+    text-decoration: none;
+}
+.texto-ubicacion2{
+    position: relative;
+    left: -100px;
+    color: black;
+    text-decoration: none;
+}
+
+/*---------------------------------------parte final de redes-----------------------------------------*/
+.barra-final-redes{
+    background-color: white;
+    width: 100%;
+    height: 35px;
+}
+#nombre-barra-final{
+    font-size: 13px;
+    color: black;
+    text-align: left;
+    padding-bottom: 15px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
