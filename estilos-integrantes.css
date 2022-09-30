@@ -75,6 +75,7 @@ div {
 .enlances{
     color: black;
     flex-direction:initial;
+    border-left: solid #FFDF3E 70px;
 }
 
 header{
