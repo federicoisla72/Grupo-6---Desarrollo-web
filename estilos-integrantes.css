@@ -1,0 +1,256 @@
+body{
+    background: rgb(255, 255, 255);
+    margin: 0%;
+}
+.imagen-logo{
+    height: 90px;
+}
+.cont-inicio{
+    display: flex;
+    background-color:#FFDF3E!important;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid black 5px;
+    
+}
+
+.contenedorflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.integrantes1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.integrantes2{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cajaintegrante {
+    background-color: rgb(229, 188, 41);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(90 91 91);
+    text-align: center;
+}
+
+.fotointegrante {
+    max-height: 290px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.NombreIntegrante {
+    text-align: center;
+    color: black;
+}
+
+div {
+    display: block;
+}
+
+.contenedor-enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.borde-blanco{
+    border-top: white solid 15px;
+}
+.enlances{
+    color: black;
+    flex-direction:initial;
+}
+
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10mm;
+    background: rgb(255, 223, 62);
+}
+
+
+.Contenedor-portfolio{
+    background-color: rgb(51, 51, 51);
+    padding-top: 90px;
+
+}
+
+.titulo-Portfolio{
+    color: rgb(255, 223, 62);
+}
+
+.Header-portfolio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 10px;
+    color: rgb(255, 223, 62);
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+    padding-left: 10px;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
