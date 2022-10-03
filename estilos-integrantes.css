@@ -75,7 +75,7 @@ div {
 .enlances{
     color: black;
     flex-direction:initial;
-    border-left: solid #FFDF3E 70px;
+    padding: 10px;
 }
 
 header{
@@ -185,8 +185,12 @@ header{
 /* Footer Right */
 
 .footer-distributed .footer-right{
+
 	float: right;
     padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .footer-distributed .footer-right p{
