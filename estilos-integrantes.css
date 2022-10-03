@@ -1,12 +1,14 @@
 body{
     background: rgb(255, 255, 255);
     margin: 0%;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .imagen-logo{
     height: 90px;
 }
 .cont-inicio{
     display: flex;
+	flex-wrap: wrap;
     background-color:#FFDF3E!important;
     gap: 20px;
     width: 100%;
@@ -21,38 +23,47 @@ body{
 .contenedorflex {
     display: flex;
     flex-direction: column;
-    align-items: center;
+	width: 100%;
+	align-content: center;
 }
 
 .integrantes1{
-    width: 300px;
+    width: 100%;
     display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .integrantes2{
-    width: 300px;
+    width: 100%;
     display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .cajaintegrante {
     background-color: rgb(229, 188, 41);
     display: flex;
     flex-direction: column;
-    margin: 10px;
     padding: 10px;
+	margin: 10px;
     border-radius: 20px;
     box-shadow: 10px 10px 5px rgb(90 91 91);
     text-align: center;
+	width: 300px;
+	font-size: large;
 }
 
 .fotointegrante {
-    max-height: 290px;
-    box-sizing: border-box;
+    max-height: 250px;
+	max-width: 290px;
+    box-sizing:content-box;
     border-radius: 20px;
+	
 }
 
 .NombreIntegrante {
