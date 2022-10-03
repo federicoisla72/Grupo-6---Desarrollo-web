@@ -47,75 +47,24 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.nuestrosProductos1{
+.cuerpo{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
-    padding-top: 100px;
+    justify-content: space-evenly;
+    padding: 100px;
 }
 
-.mail1{
+.mail{
     font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
+    width: fit-content;
+    padding: 10px;
     font-size: 17px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    margin: 30px;
 } 
-
-.mail2{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 10px;
-}
-
-.mail3{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 10px;
-}
-
-
-.aa{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-
-.esp{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 10px;
-}
-
-.asdaa{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 10px;
-}
-
-.rrrr{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 10px;
-}
 
 .Contenedor-portfolio{
     background-color: rgb(51, 51, 51);
