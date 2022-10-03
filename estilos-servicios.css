@@ -1,55 +1,58 @@
 body{
     background: rgb(255, 255, 255);
     margin: 0%;
+    font-size: 16px;
 }
+
 .imagen-logo{
     height: 90px;
 }
+
 .cont-inicio{
     display: flex;
     background-color:#FFDF3E!important;
-    gap: 30px;
+    gap: 1.87em;
     width: 100%;
-    height: 120px;
-    font-size: 30px;
+    height: 7.5em;
+    font-size: 1.87em;
     align-items: center;
     justify-content: space-around;
-    border-bottom: solid black 5px;
-    
-
-    
+    border-bottom: solid black 5px;    
 }
+
 .contenedor-enlaces{
     display: flex;
     flex-wrap: wrap;
 }
+
 .borde-blanco{
     border-top: white solid 15px;
 }
+
 .enlances{
     color: black;
     flex-direction: initial;
-    border-left: solid #FFDF3E 70px;
+    border-left: solid #FFDF3E 4.37rem;
 }
 
 header{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 60px;
-    padding-left: 150px;
+    padding-top: 3.12rem;
+    padding-right: 1.87rem;
+    padding-bottom: 3.75rem;
+    padding-left: 9.37rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10mm;
     background: rgb(255, 223, 62);
 }
 
 .Header-sofware{
-    padding-top: 100px;
+    padding-top: 6.25em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .queOfrecemos1{
-    padding-top: 100px;
+    padding-top: 6.25em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,8 +62,8 @@ header{
 .Objetivo{  
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 20px;
-    font-size: 19px;
+    padding-left: 1.25em;
+    font-size: 1.18em; 
     display: flex;
     flex-wrap: wrap;
 }
@@ -68,14 +71,14 @@ header{
 .Desarrollos{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 20px;
-    font-size: 19px;
+    padding-left: 1.25em;
+    font-size: 1.18em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .queOfrecemos2{
-    padding-top: 100px;
+    padding-top: 6.25em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -85,8 +88,8 @@ header{
 .Metodología{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 20px;
-    font-size: 19px;
+    padding-left: 1.25em;
+    font-size: 1.18em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -94,14 +97,14 @@ header{
 .Mantenimiento{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 20px;
-    font-size: 19px;
+    padding-left: 1.25em;
+    font-size: 1.18em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .Header-agencia{
-    padding-top: 100px;
+    padding-top: 6.25em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -110,103 +113,103 @@ header{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 6.25em;
 }
 
 .Apps{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 } 
 
 .SitioWeb{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .E-Commerce{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .nuestrosProductos2{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 6.25em;
 }
 
 .Comunidad{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .RedesAds{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .Chatbot{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .nuestrosProductos3{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 6.25em;
+    padding-bottom: 12.5em;
 }
 
 .AgenciaSEO{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .GoogleAds{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .SocialShopping{
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 0.62em;
+    font-size: 1.06rem;
     background-color: rgb(233, 233, 233);
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .Contenedor-portfolio{
@@ -373,3 +376,298 @@ header{
 	float: right;
 }
 
+@media (max-width: 1200px){
+    .cont-inicio{
+        display: flex;
+        background-color:#FFDF3E!important;
+        gap: 1.87em;
+        width: 100%;
+        height: 7.5em;
+        font-size: 1.10em;
+    }
+
+    .imagen-logo{
+        height: 80px;
+    }
+
+    header{
+        padding-top: 3.12rem;
+        padding-right: 1.87rem;
+        padding-bottom: 3.75rem;
+        padding-left: 9.37rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 7mm;
+    }
+    
+    .Contenedor-queOfrecemos{
+        font-size: 4mm;
+    }
+
+    .Contendor-nuestrosProductos{
+        font-size: 1mm;
+    }
+
+}
+
+@media (max-width: 768px){
+    .cont-inicio{
+        display: flex;
+        background-color:#FFDF3E!important;
+        gap: 1.87em;
+        width: 100%;
+        height: 7.5em;
+        font-size: 1em;
+    }
+
+    .imagen-logo{
+        height: 60px;
+    }
+
+    header{
+        padding-top: 3.12rem;
+        padding-right: 1.87rem;
+        padding-bottom: 3.75rem;
+        padding-left: 9.37rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5mm;
+    }
+    
+    .Contenedor-queOfrecemos{
+        font-size: 3mm;
+    }
+
+    .nuestrosProductos1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding-top: 6.25em;
+    }
+
+    .Apps{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .SitioWeb{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .E-Commerce{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .Comunidad{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .RedesAds{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+    
+    .Chatbot{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .AgenciaSEO{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .GoogleAds{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .SocialShopping{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        padding-left: 0.62em;
+        font-size: 1.00rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+}
+
+@media (max-width: 576px){
+    .cont-inicio{
+        display: flex;
+        background-color:#FFDF3E!important;
+        gap: 1.87em;
+        width: 100%;
+        height: 7.5em;
+        font-size: 0.70em;
+    }
+
+    .enlances{
+        color: black;
+        flex-direction: initial;
+        border-left: solid #FFDF3E 2rem;
+    }
+
+    .imagen-logo{
+        height: 30px;
+    }
+
+    .Header-sofware{
+        font-size: 3mm;
+        padding-top: 6.25em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header{
+        padding-top: 3.12rem;
+        padding-right: 1.87rem;
+        padding-bottom: 3.75rem;
+        padding-left: 9.37rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3mm;
+    }
+    
+    .Contenedor-queOfrecemos{
+        font-size: 3mm;
+    }
+
+
+    .Header-agencia{
+        font-size: 3mm;
+    }
+
+    .nuestrosProductos1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding-top: 6.25em;
+    }
+
+    .Apps{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .SitioWeb{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .E-Commerce{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .Comunidad{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .RedesAds{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+    
+    .Chatbot{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .AgenciaSEO{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .GoogleAds{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .SocialShopping{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+        height: 20%;
+        padding-left: 0.62em;
+        font-size: 0.80rem;
+        background-color: rgb(233, 233, 233);
+        border-radius: 0.62em;
+    }
+
+    .Header-portfolio{
+        font-size: 20mm;
+    }
+}
